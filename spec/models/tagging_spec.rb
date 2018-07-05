@@ -5,6 +5,6 @@ describe Tagging, type: :model do
   end
 
   describe 'relationships' do
-    it {should_belong_to(:tag)}
+    it {should belong_to(:tag)}
   end
 end
