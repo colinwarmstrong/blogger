@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 describe 'user edits an articles' do
   describe 'user visits an article show page' do
     describe 'user clicks edit link' do
